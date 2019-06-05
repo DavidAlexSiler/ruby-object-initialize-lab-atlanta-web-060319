@@ -1,11 +1,12 @@
 class Dog
-  attr_accessor :this_name 
+  attr_accessor :name, :breed
   
-  def initialize(name)
-    @this_name = name
+  def initialize(name, breed = mutt)
+    @name = name
+    @breed = breed
   end
   
-  def breed(breed = mutt)
-    @breed = breed
+  def breed(breed)
+    breed
   end
 end
