@@ -1,5 +1,5 @@
 class Dog
-  attr_accessor :name 
+  attr_accessor :this_name 
   
   def initialize(name)
     @this_name = name
